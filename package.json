@@ -1,13 +1,14 @@
 {
   "name": "tesla-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Promise-based wrapper for the Tesla API",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
-    "lint": "eslint src/"
+    "lint": "eslint src/",
+    "prepublish": "tsc"
   },
   "repository": {
     "type": "git",

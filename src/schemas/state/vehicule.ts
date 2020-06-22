@@ -12,5 +12,5 @@ export interface VehiculeData {
   calendar_enabled: true;
   api_version: number;
   backseat_token: string;
-  backseat_token_updated_at: string;
+  backseat_token_updated_at: number;
 }

@@ -2,10 +2,10 @@ import { EndpointGroup } from "./EndpointGroup";
 import {
   OAuthPasswordRequest,
   OAuthResponse,
-  OAuthRefreshRequest
-} from "../schemas/auth";
+  OAuthRefreshRequest,
+  VehiculeData
+} from "../schemas";
 import { Vehicule } from "./Vehicule";
-import { VehiculeData } from "../schemas/vehicule";
 
 export class Client extends EndpointGroup {
   public accessToken: string;
